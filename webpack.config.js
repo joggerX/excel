@@ -1,4 +1,5 @@
 const path = require('path')
+require("@babel/polyfill")
 const {CleanWebpackPlugin} = require('clean-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const CopyPlugin = require('copy-webpack-plugin')
@@ -34,7 +35,7 @@ module.exports = {
     target: 'web',
     context: path.resolve(__dirname, 'src'),
     mode: 'development',
-    entry: ['@babel/polyfill','./index.js'],
+    entry: ['@babel/polyfill', './index.js'],
     output: {
         filename: filename('js'),
         path: path.resolve(__dirname, 'dist')
