@@ -1,4 +1,4 @@
-.exel__table {
+.excel__table {
   position: absolute;
   left: 0;
   right: 0;
@@ -7,7 +7,7 @@
   padding-bottom: 2px;
 }
 
-.exel__table .row {
+.excel__table .row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -19,7 +19,7 @@
   height: 24px;
 }
 
-.exel__table .row-info {
+.excel__table .row-info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -36,13 +36,13 @@
   border-top: none;
 }
 
-.exel__table .row-data {
+.excel__table .row-data {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.exel__table .column {
+.excel__table .column {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -61,7 +61,7 @@
   border-left: 0;
 }
 
-.exel__table .cell {
+.excel__table .cell {
   min-width: 40px;
   padding: 5px;
   width: 120px;
@@ -74,7 +74,7 @@
   outline: none;
 }
 
-.exel__table .cell.selected {
+.excel__table .cell.selected {
   border: none;
   outline: 2px solid #3c74ff;
   z-index: 2;

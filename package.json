@@ -1,7 +1,7 @@
 {
-  "name": "exel-course",
+  "name": "excel-course",
   "version": "1.0.0",
-  "description": "Pure JS Exel Application",
+  "description": "Pure JS excel Application",
   "main": "webpack.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,23 +10,24 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joggerX/exel.git"
+    "url": "git+https://github.com/joggerX/excel.git"
   },
   "keywords": [
     "js",
     "javascript",
-    "exel"
+    "excel"
   ],
   "author": "Andrew <mrkekschannel@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/joggerX/exel/issues"
+    "url": "https://github.com/joggerX/excel/issues"
   },
-  "homepage": "https://github.com/joggerX/exel#readme",
+  "homepage": "https://github.com/joggerX/excel#readme",
   "private": "true",
   "browserslist": "> 0.25%, not dead",
   "devDependencies": {
     "@babel/core": "^7.13.13",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
     "@babel/preset-env": "^7.13.12",
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.2.2",
