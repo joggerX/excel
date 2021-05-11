@@ -1,8 +1,7 @@
 /* eslint-disable linebreak-style */
-
-import {range} from '../../core/utils'
-
 /* eslint-disable eol-last */
+import {range} from '@core/utils'
+
 export function shouldResize(event) {
   return event.target.dataset.resize
 }

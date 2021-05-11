@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 export class Emitter {
   constructor() {
     this.listeners = {}
